@@ -1,11 +1,11 @@
-# Object-Oriented Design Class
+# Practical Object-Oriented Design Class 1
 
 ## Dependencies
 
 You will need:
 
 * git
-* a modern version of Ruby (1.9.3 or greater)
+* a modern version of Ruby (2.x or greater)
 
 ## Setup
 
