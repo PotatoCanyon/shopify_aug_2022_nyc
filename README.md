@@ -57,11 +57,11 @@ subdirectory and README.
 
 ## Working on the exercises
 
-We'll successively add exercises to `master` over the next few days.  This means that you'll have to `git pull` from master a number of times.  Therefore, it's best if you DON'T CHECK ANYTHING INTO MASTER on your local machine.  If you wish to save copies of your own code, make a local branch.
+We'll successively add exercises to `main` over the next few days.  This means that you'll have to `git pull` from main a number of times.  Therefore, it's best if you DON'T CHECK ANYTHING INTO main on your local machine.  If you wish to save copies of your own code, make a local branch.
 
 Therefore, to work on the 'bottles' problem you would
 ```bash
-$ git checkout master
+$ git checkout main
 ```
 
 Create a new branch to hold your work on this exercise:
@@ -81,9 +81,9 @@ $ git commit -m "Explain your change here"
 ```
 
 When we start working on the next section of bottles (or move to a new exercise
-altogether) save your outstanding work (as above) and then switch back to master:
+altogether) save your outstanding work (as above) and then switch back to main:
 ```bash
-$ git checkout master
+$ git checkout main
 ```
 
 Pull the latest version from GitHub:
@@ -116,7 +116,7 @@ Then throw the changes away:
 $ git reset --hard
 ```
 
-### Did your master diverge?
+### Did your main diverge?
 
 Go ahead and create a new branch with all your changes:
 
@@ -124,10 +124,10 @@ Go ahead and create a new branch with all your changes:
 $ git checkout -b my-backup-branch
 ```
 
-Then go back to master:
+Then go back to main:
 
 ```bash
-$ git checkout master
+$ git checkout main
 ```
 
 Make sure you have the most recent changes from GitHub:
@@ -136,8 +136,8 @@ Make sure you have the most recent changes from GitHub:
 $ git fetch origin
 ```
 
-Then tell git to create a new copy of master, throwing away the old one:
+Then tell git to create a new copy of main, throwing away the old one:
 
 ```bash
-$ git reset --hard origin/master
+$ git reset --hard origin/main
 ```
