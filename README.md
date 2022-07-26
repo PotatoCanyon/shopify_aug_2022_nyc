@@ -12,13 +12,13 @@ You will need:
 Clone this repository:
 
 ```bash
-$ git clone git@github.com:PotatoCanyon/$NAME_OF_CLASS.git
+$ git clone git@github.com:PotatoCanyon/shopify_aug_2022_nyc.git
 ```
 
 Change directories so that you are in the project:
 
 ```bash
-$ cd $NAME_OF_CLASS
+$ cd shopify_aug_2022_nyc
 ```
 
 Install the dependencies:
